@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace mortgagesvc
+namespace az_snappers_mortgagesvc
 {
     public class Program
     {

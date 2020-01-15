@@ -4,8 +4,8 @@
     "windowsAuthentication": false, 
     "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:51144",
-      "sslPort": 44339
+      "applicationUrl": "http://localhost:51509",
+      "sslPort": 44373
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "mortgagesvc": {
+    "az_snappers_mortgagesvc": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

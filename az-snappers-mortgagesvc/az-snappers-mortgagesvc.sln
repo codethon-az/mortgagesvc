@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mortgagesvc", "mortgagesvc\mortgagesvc.csproj", "{B17AA4D2-CFD0-494C-BE30-406222BA4239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "az-snappers-mortgagesvc", "az-snappers-mortgagesvc\az-snappers-mortgagesvc.csproj", "{2AC1781F-CF53-4316-843C-18A60B7302BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B17AA4D2-CFD0-494C-BE30-406222BA4239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B17AA4D2-CFD0-494C-BE30-406222BA4239}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B17AA4D2-CFD0-494C-BE30-406222BA4239}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B17AA4D2-CFD0-494C-BE30-406222BA4239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC1781F-CF53-4316-843C-18A60B7302BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC1781F-CF53-4316-843C-18A60B7302BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC1781F-CF53-4316-843C-18A60B7302BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC1781F-CF53-4316-843C-18A60B7302BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {965B8B2D-7EF0-466B-A82B-CEDCEF7857D7}
+		SolutionGuid = {1BA777F5-2F00-4C9A-9DC7-DD6252EE21C1}
 	EndGlobalSection
 EndGlobal
