@@ -12083,11 +12083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc.csproj",
       "projectName": "az-snappers-mortgagesvc",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\mortgagesvc\\az-snappers-mortgagesvc\\az-snappers-mortgagesvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
