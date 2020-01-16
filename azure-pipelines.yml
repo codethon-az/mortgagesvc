@@ -17,7 +17,7 @@ steps:
 - script: dotnet build $(project) --configuration $(buildConfiguration)
   displayName: 'dotnet build $(project) $(buildConfiguration)'
   
-- task: AzureRmWebAppDeployment@4
+- task: AzureRmWebAppDeployment@1
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'WMT Codeathon Test (7124ed72-bfac-4abc-97c9-545034a7fc5a)'
