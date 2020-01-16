@@ -23,3 +23,5 @@ steps:
     azureSubscription: 'WMT Codeathon Test (7124ed72-bfac-4abc-97c9-545034a7fc5a)'
     appType: 'webApp'
     WebAppName: 'mortgagesvc'
+
+- task: PublishBuildArtifacts@1
