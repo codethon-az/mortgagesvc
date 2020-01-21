@@ -7,7 +7,7 @@ namespace az_snappers_mortgagesvc.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class QuoteController : ControllerBase
     {
         // GET api/values
         [HttpGet]
