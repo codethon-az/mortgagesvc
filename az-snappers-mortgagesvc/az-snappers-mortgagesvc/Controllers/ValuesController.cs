@@ -9,38 +9,17 @@ namespace az_snappers_mortgagesvc.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get(GetQuoteRequest request)
+        
+        //POST api/values
+        //{"AccountDetails":{"office":null,"AccountNumber":null,"FA":null,"KeyACcount":null},"UUID":"1234567","HouseDetails":{"Zipcode":null,"Area":null,"contrustiedIn":"0001-01-01T00:00:00","AgeInYears":0,"NumberOfBedrooms":0,"Cost":0.0}}
+        [HttpPost]
+        public string Post(GetQuoteRequest req)
         {
             QuoteResponse response = new QuoteResponse() { HouseCost = 2500000, IsPreapproved = true, RateofInterest = "2.40" };
             var jsonresponse = Newtonsoft.Json.JsonConvert.SerializeObject(response);
-            return new string[] { jsonresponse };
+            return jsonresponse;
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return $"item {id} returned.";
-        }
-
-        // POST api/values
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-        //}
-
-        //// PUT api/values/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/values/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+        
     }
 }
