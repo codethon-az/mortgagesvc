@@ -15,7 +15,7 @@ namespace az_snappers_mortgagesvc.Controllers
         [HttpPost]
         public string Post(GetQuoteRequest req)
         {
-            QuoteResponse response = new QuoteResponse() { HouseCost = 2500000, IsPreapproved = true, RateofInterest = "2.40" };
+            QuoteResponse response = new QuoteResponse() { HouseCost = 25000000, IsPreapproved = true, RateofInterest = "2.40" };
             var jsonresponse = Newtonsoft.Json.JsonConvert.SerializeObject(response);
             return jsonresponse;
         }
