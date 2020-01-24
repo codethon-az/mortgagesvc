@@ -55,6 +55,7 @@ namespace az_snappers_mortgagesvc.Controllers
             response.PropertyId = request.PropertyDetails.PropertyId;
             response.UserId = request.AccountDetails.UserId;
             response.AccountNumber = request.AccountDetails.AccountNumber;
+            response.MonthlyEMI = (request.PropertyDetails.Cost - response.DownPayment) / 240;
             return response;
 
         }

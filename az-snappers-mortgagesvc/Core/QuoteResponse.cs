@@ -11,8 +11,8 @@ namespace Core
         public string RateofInterest { get; set; }
         public bool IsPreApproved { get; set; }
         public decimal DownPayment { get; set; }
-        public string   AccountNumber { get; set; }
-
+        public string AccountNumber { get; set; }
+        public decimal MonthlyEMI { get; set; }
 
     }
 }
