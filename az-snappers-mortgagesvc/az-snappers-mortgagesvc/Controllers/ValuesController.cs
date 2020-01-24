@@ -54,6 +54,7 @@ namespace az_snappers_mortgagesvc.Controllers
             }
             response.PropertyId = request.PropertyDetails.PropertyId;
             response.UserId = request.AccountDetails.UserId;
+            response.AccountNumber = request.AccountDetails.AccountNumber;
             return response;
 
         }
