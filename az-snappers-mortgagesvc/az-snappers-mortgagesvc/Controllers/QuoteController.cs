@@ -9,6 +9,11 @@ namespace az_snappers_mortgagesvc.Controllers
     [ApiController]
     public class QuoteController : ControllerBase
     {
+        [HttpGet]
+        public string Get()
+        {
+            return "I'm healthy";
+        }
 
         //POST api/values
         //{"AccountDetails":{"office":null,"AccountNumber":null,"FA":null,"KeyACcount":null,"UserId":null,"AUM":null,"Tenure":null},"PropertyDetails":{"Zipcode":null,"Area":null,"contrustedIn":"0001-01-01T00:00:00","AgeInYears":0,"NumberOfBedrooms":0,"Cost":0.0,"PropertyId":null}}
