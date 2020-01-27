@@ -12,7 +12,7 @@ namespace az_snappers_mortgagesvc.Controllers
         [HttpGet]
         public string Get()
         {
-            return "I'm healthy";
+            return "I'm healthy!";
         }
 
         //POST api/values
