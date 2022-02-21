@@ -21,12 +21,8 @@ jobs:
         with:
           dotnet-version: '3.1.301'
           include-prerelease: true
-      - name: where are we
-          run: pwd
-      - name: list some key files
-          run: ls -lrt
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build  mortgagesvc/az-snappers-mortgagesvc/az-snappers-mortgagesvc.sln --configuration Release
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/mortgagesvc/az-snappers-mortgagesvc/az-snappers-mortgagesvc.sln
