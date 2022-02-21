@@ -25,7 +25,7 @@ jobs:
         run: dotnet build  az-snappers-mortgagesvc/az-snappers-mortgagesvc.sln --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}\amortgagesvc\mortgagesvc\z-snappers-mortgagesvc\Cloudathon_2022\Cloudathon_2022.csproj
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}\mortgagesvc\mortgagesvc\az-snappers-mortgagesvc\Cloudathon_2022\Cloudathon_2022.csproj
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
