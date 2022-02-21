@@ -16,7 +16,9 @@ namespace Core
 
         public int YearstoSave { get; set; }
 
-        public approach PlanningApproach { get; set; }
+        public string PlanningApproach { get; set; }
+
+        public Persona UserPersona{ get; set; }
     }
 
     public enum approach
